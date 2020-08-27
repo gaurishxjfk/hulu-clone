@@ -11,13 +11,13 @@ function Header() {
     return (
         <div className="header">
             <div className="header__icons">
-                <div className="header__icon">
+                <div className="header__icon header__icon--icon">
                     <HomeIcon/>
                     <p>Home</p>
                 </div>
                 <div className="header__icon">
                     <FlashOnIcon/>
-                    <p>Flash</p>
+                    <p>Trending</p>
                 </div>
                 <div className="header__icon">
                     <LiveTvIcon/>   
